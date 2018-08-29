@@ -1,0 +1,27 @@
+{
+  "name": "scl-2018-01-fe-markdown",
+  "version": "1.0.0",
+  "description": "markdown",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karmacode00/scl-2018-01-FE-markdown.git"
+  },
+  "keywords": [
+    "markdown",
+    "node"
+  ],
+  "author": "Andrea Lafertte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karmacode00/scl-2018-01-FE-markdown/issues"
+  },
+  "homepage": "https://github.com/Karmacode00/scl-2018-01-FE-markdown#readme"
+}
