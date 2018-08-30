@@ -1,3 +1,5 @@
+
+/*
 const mdLinks = require("md-links");
 
 mdLinks("./some/example.md")
@@ -12,11 +14,9 @@ mdLinks("./some/example.md", { validate: true })
   })
   .catch(console.error);
 
-/*
- * HACKER EDITION
- */
 mdLinks("./some/dir")
   .then(links => {
     // => [{ href, text, file }]
   })
   .catch(console.error);
+  */
