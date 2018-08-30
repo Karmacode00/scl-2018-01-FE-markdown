@@ -20,6 +20,9 @@
   ],
   "author": "Andrea Lafertte",
   "license": "ISC",
+  "bin": {
+    "md-links": "./lib/md-links"
+  },
   "bugs": {
     "url": "https://github.com/Karmacode00/scl-2018-01-FE-markdown/issues"
   },
