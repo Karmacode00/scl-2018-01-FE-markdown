@@ -1,5 +1,4 @@
 
-/*
 const mdLinks = require("md-links");
 
 mdLinks("./some/example.md")
@@ -19,4 +18,4 @@ mdLinks("./some/dir")
     // => [{ href, text, file }]
   })
   .catch(console.error);
-  */
+  
