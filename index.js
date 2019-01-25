@@ -1,21 +1,12 @@
+#!/usr/bin/env node
 
-const mdLinks = require("md-links");
+const fs = require('fs');
+const path = require('path');
+const Marked = require('marked');
+const fetch = require('node-fetch');
+const mdLinks = require('./lib/md-links.js');
+const [,, ...args] = process.argv;
+const inputFile = args[0];
+const absolute = path.resolve(inputFile);
 
-mdLinks("./some/example.md")
-  .then(links => {
-    // => [{ href, text, file }]
-  })
-  .catch(console.error);
-
-mdLinks("./some/example.md", { validate: true })
-  .then(links => {
-    // => [{ href, text, file, status, ok }]
-  })
-  .catch(console.error);
-
-mdLinks("./some/dir")
-  .then(links => {
-    // => [{ href, text, file }]
-  })
-  .catch(console.error);
-  
+mdLinks(absolute);
